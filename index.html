@@ -1,14 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finpay</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body>
-    <nav>
-        
-    </nav>
+<style>
+
+</style>
+
+<body class="text-lg font-normal bg-#f5f9fa text-slate-600">
+    <div class="container mx-auto mt-10">
+        <header>
+            <section class="flex gap-20 justify-between ml-20 font-bold text-slate-800 ">
+               <div class="flex items-center gap-40">
+                 <div class="text-3xl flex gap-2">
+                    <i class="fa-solid fa-pen-nib"></i><h3 class="">Finpay</h3>
+                </div>
+                <ul class="lg:flex gap-20 hidden">
+                    <li>Products</li>
+                    <li>Customers</li>
+                    <li>Pricing</li>
+                    <li>Learn</li>
+                </ul>
+
+               </div>
+                <ul class="flex gap-4 me-8">
+                    <li><a href="" class="text-slate-800 rounded-lg border px-8 py-3"><button>Login</button></a></li>
+                    <li><a href="" class="text-white rounded-lg bg-[#2a8e9e] px-8 py-3"><button class="">Signup</button></a></li>
+                </ul>
+            </section>
+
+            <section class="h-screen mt-20 grid grid-cols-2 justify-items-center items-center">
+                <div class="h-screen  ml-40 w-5/6 text-left">
+                    <h1 class="text-7xl text-slate-800 font-bold normal-case my-4 tracking-tight">Get paid early</h1>
+                    <h2 class="text-slate-800 text-6xl font-seminbold w-5/6 my-4 tracking-tight">save automatically all your pay</h2>
+                    <p class="text-lg tracking-tight w-4/6">Supports small businesses with simple invoicing, powerful integrations, and cash flow management tools.</p>
+                    <form action="" class="flex gap-4  mt-10">
+                        <input type="email" placeholder="Your business email" class="bg-white px-10 border-slate-800 rounded-xl shadow-slate-900">
+                        <button class="text-white rounded-lg bg-[#2a8e9e] px-4 py-3 -ml-8">Get Started <i class="fa-solid fa-arrow-right"></i></button>
+                    </form >
+                     <ul class="flex gap-10 text-slate-800 mt-10 ">
+                            <li class="font-bold text-3xl">Klarna.</li>
+                            <li class="font-bold text-3xl">Coinbase</li>
+                            <li class="font-bold text-3xl"><i class="fa-solid fa-arrow-down"></i>instacart</li>
+                        </ul>
+                </div>
+
+                <div class=" w-5/6 h-screen">
+                    <div class=" absolute ml-72 -mt-10">
+                        <ul class="p-4 w-65 h-65 rounded-t-3xl text-white bg-[#2a8e9e] ">
+                            <li >Credit Card</li>
+                            <li class="text-3xl font-bold">234 *** ***</li>
+                        </ul>
+                        <p class="rounded-b-3xl -mt-4 p-4 bg-[#023347] text-white font-bold text-4xl">VISA</p>
+                    </div>
+                    <div class="bg-white p-8 w-4/6 h-auto rounded-2xl shadow-lg shadow-gray-400">
+                        <div class="flex gap-4 mb-5">
+                        <h1 class="p-3 px-4 text-2xl bg-[#2a8e9e] rounded-2xl text-white"><i class="fa-solid fa-eye"></i></h1>
+                        <ul>
+                            <li class="font-bold text-lg text-black">Dipa Inhouse</li>
+                            <li class="text-lg text-black">dipainhouse@gmail.com</li>
+                        </ul>
+                        </div>
+
+                        <ul class="p-4 border rounded-2xl mb-4">
+                            <li>Invoice</li>
+                            <li class="font-bold text-4xl text-black">$1,876,5880</li>
+                            <li>April 21, 2024</li>
+                        </ul>
+                        <form action="" class="w-full ">
+                            <div class="flex gap-40 mb-3 border p-4 rounded-2xl">
+                                <label for=""><i class="fa-solid fa-credit-card "></i> Credit Card</label>
+                                <input type="radio" name="c_card" id="visa" class="accent-[#2a8e9e] p-4 w-8" checked>
+                            </div>
+                            <div class="flex gap-36 mb-5 border p-4 rounded-2xl">
+                                <label for=""><i class="fa-solid fa-university"></i> Bank Account</label>
+                                <input type="radio" name="c_card" class="accent-[#2a8e9e] p-4 w-8" id="visa" >
+                            </div>
+                            <button class="bg-[#023347] text-white rounded-2xl px-10 py-3 text-center w-full">Pay</button>
+                        </form>
+                    </div>
+                    </div>
+            </section>
+        </header>
+    </div>
 </body>
+
 </html>
